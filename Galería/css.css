@@ -1,0 +1,57 @@
+body{
+    overflow-y: scroll;
+overflow-x: hidden;
+background-image: url("cloth.png");
+
+
+}
+.marquesina{
+    
+    padding: 10px;
+    position: relative;
+    right: -1200px;
+    width: 100%;
+    background-color: inherit;
+    color: rgb(0, 0, 0);
+
+}
+div .marquesina{
+    animation: marquesina 19s infinite;
+}
+@keyframes marquesina {
+    0%{
+        right: -100%;
+    }
+    100%   {
+         right:105%;
+        }
+}
+
+.imagenf{
+  float: left;
+  width: 728px;
+    
+}
+
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+
+@-webkit-keyframes galeria  {
+20% {margin-left: 0px;}
+30% {margin-left: -728px;}
+50% {margin-left: -728px;}
+60% {margin-left: -1456px;}
+70% {margin-left: -1456px;}
+80% {margin-left: -2184px;}
+90% {margin-left: -2184px;}
+ }
+ .kamenraider{
+    animation: galeria 10s infinite;
+    width: 2912px;
+
+ }

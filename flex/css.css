@@ -1,0 +1,40 @@
+body{
+    background-color: #E6FF69;
+}
+div{
+    border: black 1px solid;
+}
+.container{
+    display: flex;
+    height: 95vh;
+ 
+}
+.panelIzq{
+    flex: 3;
+    display: flex;
+
+
+}
+.panelDer{
+    flex:7;
+}
+.intIzq .intDer{
+    flex: 5;
+}
+/*.base{
+    background-color: #EDC039;
+    border: 2px red solid;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:space-around;
+}
+*/
+.marco{
+    background-color: #F55D95;
+    width: 50px;
+    height: 30px;
+    
+}

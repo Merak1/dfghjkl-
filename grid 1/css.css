@@ -1,0 +1,81 @@
+body{
+    background-color: #F2BDD0;
+}
+.container{
+    height:90vh;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-row-gap: 8px;
+    grid-column-gap: 8px;
+    padding: 8px;
+    background-color:  #756F94;
+}
+.container div{
+    border: 1.5px #756F94 solid;
+    background-color: #C5BDF2;
+}
+.container #pablo1 {
+    grid-column: 1/4;
+    grid-row: 1/4
+}
+.container #pablo2 {
+    grid-column: 4/6;
+    grid-row: 1/4
+}
+.container #pablo3 {
+    grid-column: 1/6;
+    grid-row: 4/6;
+
+}
+#pablo1 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 8px;
+    grid-column-gap: 8px;
+    padding: 8px;
+
+}
+#pablo1 #diego1{
+    grid-row: 1/4;
+    grid-column: 1/2;
+}
+#pablo2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+     grid-row-gap: 8px;
+    grid-column-gap: 8px;
+    padding: 8px;
+    
+}
+#pablo2 #jose1{
+    grid-row: 1/2;
+    grid-column: 1/3;
+}
+#pablo2 #jose2{
+    grid-row: 2/5;
+    grid-column: 1/2;
+}
+#pablo2 #jose3{
+    grid-row: 2/5;
+    grid-column: 2/3;
+}
+#pablo3{
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(27, 1fr);
+    grid-row-gap: 8px;
+    grid-column-gap: 8px;
+    padding: 8px;
+}
+#pablo3 #frans1{
+    grid-column: 1/11;
+    grid-row: 1/20; 
+}
+#pablo3 #frans2{
+    grid-column: 7/19;
+    grid-row: 12/28; 
+    background-color: transparent;
+}
